@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scene"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/im_sky" />
+
+    <ScrollView
+        android:id="@+id/sv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="500dp"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:id="@+id/t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/white"
+            android:elevation="8dp"
+            android:orientation="vertical"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Ghost Presenter"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="19dp"
+                android:text="View all 452 photos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintStart_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView3"
+                android:layout_marginBottom="16dp"
+                android:text="Free for personal and commercial use"
+                android:textColor="@android:color/holo_orange_dark"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, eu justo ponderum est, munere omnium pertinacia ei cum. Cu ius malis aeque aliquando, equidem percipit mandamus et vim, te dicta consequat qui. Eu vide scaevola vituperata pro, cum cu quidam regione euripidis. Ex timeam utroque molestiae nec, eu choro intellegam est.  Eos atqui mundi accumsan ut, an mea justo elitr, at mei dico offendit salutatus. Ut mel efficiantur concludaturque, stet fabulas definitiones mea in. Id nulla mazim eam. Amet democritum nec in, no petentium hendrerit vis, prompta efficiantur ut eos.  Qui option feugiat ei, vis debet vocibus instructior ea. Simul nihil option eam an. Ei diam signiferumque mea, vel at summo solet feugait, duo ad accumsan verterem explicari. Admodum facilisis te eam, ei tation ignota inciderint has.  Cum et epicurei dissentiunt, cu ius mnesarchum philosophia. Ex legimus adipiscing per, vel an velit delectus assentior. Mel iudico menandri complectitur ne, dicit molestie consequat no mel. Usu ut semper dictas invenire. Debitis fabellas ad quo, meis appetere ut sed. Congue copiosae his ut, graeco democritum argumentum ad pro. Nec tempor consequuntur te.  Mea no habemus inimicus. Ea choro epicuri mei. Ne stet autem vivendo duo. Erat utroque ea mea. Et ius nostrum detraxit, tale sapientem eum et.  Officiis legendos expetendis ex vix. Sea in unum inani dignissim. Porro facilis mel te, has case dicta ex, et mel tempor epicuri. Et etiam simul aliquam vim. Graece noster tractatos ne sed, sea te maiorum theophrastus.  Vim esse omittam no. Quo ei imperdiet vulputate. Velit nonumes invidunt cu eum, est eruditi recusabo efficiantur ea, pri ei platonem vituperata. Et dicat assum aeterno nec, cum alienum appetere te, natum ludus sit ea. Ex usu mollis consulatu, pri in deleniti ullamcorper.  Blandit repudiandae nam an, pertinax oportere euripidis pri te. Meis dissentiet appellantur ad mel, alii postea putent sea ad. Purto prodesset interesset ex sit, vix ne solet bonorum moderatius, has te equidem commune scribentur. Vis ad unum dolor, nec ex quem dicat, eos an falli tempor accusam. Ex nec noster instructior, id cum vituperata honestatis, ut tation decore theophrastus qui.  Nam ceteros eligendi ut. Nam ea veniam noluisse. Munere verterem philosophia has cu, sit vidisse liberavisse ex, cum at invidunt verterem. Sit integre interpretaris no. Eos nusquam definitiones ad. Ne audire iuvaret scaevola eos.  An magna viderer deseruisse duo. Eos in quas nullam iracundia, vim ne malorum nusquam molestie. Nulla voluptua sadipscing nam ad. Ex mei mundi dolores praesent, his et nullam aliquam qualisque. Ornatus accusamus sed ei, populo iuvaret percipit mea ad. Usu eu iudicabit definiebas, rebum electram definitiones sed ea, sed ceteros adolescens cotidieque te.  Sumo labitur nam ut, et eam timeam perfecto, cu vero quas inermis ius. Cu phaedrum accusamus reprimique eam. At erat altera essent nam, eos corrumpit ullamcorper no. Appetere indoctum ne qui. Fabellas indoctum quo no.  Vim ex viderer probatus laboramus. Porro dicant duo ut, quot iudico no mel, id minim numquam omittantur vix. Noster philosophia definitiones ex cum. Vel et euripidis incorrupte definitionem, eu eirmod ancillae mel. Te vidit persius fastidii vix, cum at novum equidem interpretaris.  Ut appetere disputando quo, quod eius porro vix ne, aliquid dolorem graecis duo ex. An esse qualisque quo. Te dico prima adolescens mei, ad consul vivendum reprehendunt sed. Id movet accusamus has.  Cum altera inimicus te, an mea prima accusam. Ei iracundia assueverit adversarium quo, in detraxit constituam complectitur mei. Sanctus maluisset est ne, elitr detracto laboramus cu his, id pri facer discere expetendis. Probo dolorum et qui, mei minim putent inciderint ut, ex vidit mollis vocent pri.  Oratio sanctus id vix, qui erant democritum reformidans no. No tempor voluptua neglegentur quo. Usu vide suscipit pericula an. Et tale possim meliore sed, sea odio accusam et. Ex rebum dolores sapientem mei.  Impedit phaedrum mea ne, no qui solum concludaturque. Incorrupte quaerendum reformidans usu ex, sea populo assentior in, sed populo tacimates ea. Mel movet menandri eu, case mutat moderatius has ex. Dicam civibus detracto at cum, pro cu iudico timeam, fugit definitionem his an. Sit tibique quaestio antiopam ut, est in verear neglegentur. An mea ipsum necessitatibus, altera meliore civibus vix ea.  Eu has sale inani gubergren. Qui agam delenit recteque in, an omnis altera nostro vis, rebum repudiandae eum ea. Te blandit commune incorrupte pro, nec clita erroribus no, eum et accusam assueverit. Ex cum mucius intellegat consetetur. Reque labitur adolescens in qui, eam mundi populo rationibus eu, ea noster fabellas delicatissimi sea. Te mei hinc aperiri, accusam ocurreret dissentias qui ei, at pri elitr vocibus instructior. Ius elit ceteros repudiandae ex, cum ea odio doctus verear, mea nulla choro appetere at.  His dolore corrumpit et, id quidam sanctus fabellas sit. Mea ea volutpat sententiae, ad idque antiopam temporibus per. Duo in aliquid convenire deterruisset. Mei voluptua torquatos in, duo et modo maluisset splendide.  Cu sed error nostrum, ne mel feugait periculis voluptatum, cu per nostro numquam. Et recusabo scriptorem pro, qui quod quaestio ocurreret ne, vim ut aperiri definiebas. Quo sumo imperdiet hendrerit an, est bonorum ceteros te. Vim legere omittam ad.  In commodo delicata sed, ius legere abhorreant ad. Te eam ocurreret signiferumque. Mel iusto dolor te, pri odio quidam at. Volumus similique an usu, ea eos vero mazim vitae, ei cum malis oratio omnesque. Te sed partem torquatos. Cum sale vocent ut.  An pro quod minimum accommodare, in his congue pericula. Magna menandri id sea, mea ut error veritus. Eam in autem commodo comprehensam. Case sententiae ad vix, mei quis atqui ne, et vix fuisset quaestio suscipiantur. Utamur voluptua evertitur eu ius, accusam fastidii apeirian ut duo.  Eum ne dicta laudem legendos, id diceret civibus dissentiunt quo. Adolescens honestatis reprehendunt ne quo. Id vix menandri aliquando, natum efficiendi vim te. Graeco numquam vituperata cum at, ut eum atqui adipiscing.  An sed quas aliquam nonumes, graece facilis appellantur per ex. No sed dicta integre epicuri, eos debet causae hendrerit an. No has graecis invidunt evertitur, nonumy abhorreant id mei. Id decore consul maiestatis sit, ius impedit percipitur an. Vis ex graece possit. Et nisl porro habemus usu. Vis no atqui ceteros eloquentiam.  Vis." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

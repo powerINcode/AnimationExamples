@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tick_name">tick</string>
+    <string name="cross_name">cross</string>
+    <string name="cross_name_group">cross_group</string>
+    <string name="tick_name_group">tick_group</string>
+    <integer name="tick_cross_duration">300</integer>
+    <string name="path_tick">M 6 20 L 4 18 M 5.5 20 L 15 15</string>
+    <string name="path_cross">M 4 4 L 20 20 M 20 4 L 4 20</string>
+</resources>

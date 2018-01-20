@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Animating Test</string>
+    <string name="transition_shared_images" translatable="false">transition_shared_images</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="shared_avatar" translatable="false">shared_avatar</string>
+</resources>

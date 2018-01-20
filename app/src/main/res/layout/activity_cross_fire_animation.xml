@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.powerincode.animatingtest.crossfireFade.CrossFireAnimation">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/crossfire_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, ei recteque eloquentiam pro, mel wisi nullam option no, quodsi doctus salutatus nec te. Ei duis oratio vituperatoribus mei, sea persius democritum ex, ea mea audire accumsan cotidieque. Quo ad eius erant luptatum. Dolorem perpetua usu no, ea corrumpit maiestatis mea.
+
+Ius ea ferri dicta, alia evertitur dissentiet vim cu, mel doctus legimus dolorem no. Et iisque luptatum qui. In delicata mnesarchum inciderint ius. Ex mei vulputate vituperata, ea vis amet purto vidisse. Et unum persius maiorum est.
+
+Ius wisi debet commune an. In erat consul pri, partem epicurei facilisis ei has. Eu tale facilis verterem cum, adipisci adolescens intellegam vix ad. Ne mei posse malis, an consul putent intellegat cum, cu atqui soleat pro.
+
+Utamur aperiam ea duo. Moderatius definiebas ne est. Ei eum quaeque commune petentium. Cum veri debet in. Eam mentitum consulatu honestatis id. Eam te possit feugait molestie, porro consul dolorum pro at. Per ut alii erant qualisque.
+
+Odio persequeris te usu. Ubique omittantur et vix, et vix facete invidunt ocurreret, prodesset accommodare in vim. Fugit nonumes an has, libris sententiae appellantur quo cu. Possit viderer eum ne, usu cu purto antiopam erroribus. Duo ea alii vitae eleifend, per ex munere reformidans."/>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/crossfire_pb"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SWAP"
+        android:onClick="onSwap"
+        android:layout_gravity="bottom"/>
+
+</FrameLayout>
