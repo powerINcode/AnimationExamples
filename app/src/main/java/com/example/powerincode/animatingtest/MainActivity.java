@@ -8,6 +8,7 @@ import android.view.View;
 import com.example.powerincode.animatingtest.VectorAnimation.VectorAnimatingActivity;
 import com.example.powerincode.animatingtest.activityTransition.ActivityTransitions;
 import com.example.powerincode.animatingtest.coordinatedMotion.CoordinatedMotionActivity;
+import com.example.powerincode.animatingtest.coordinatorLayout.CoordinatorLayoutActivity;
 import com.example.powerincode.animatingtest.crossfireFade.CrossFireAnimation;
 import com.example.powerincode.animatingtest.curveMotion.CurveMotionActivity;
 import com.example.powerincode.animatingtest.instructiveMotion.InstructiveMotion;
@@ -71,5 +72,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void onVectorAnimatingTap(View view) {
         startActivity(VectorAnimatingActivity.class);
+    }
+
+    public void onCoordinatorLayoutTap(View view) {
+        startActivity(CoordinatorLayoutActivity.class);
     }
 }

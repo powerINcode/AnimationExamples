@@ -31,7 +31,9 @@
         <activity android:name=".coordinatedMotion.CoordinatedCurvedMotionActivity2" />
         <activity android:name=".transformingSurface.TransformingSurfaceActivity" />
         <activity android:name=".curveMotion.CurveMotionActivity" />
-        <activity android:name=".VectorAnimation.VectorAnimatingActivity"></activity>
+        <activity android:name=".VectorAnimation.VectorAnimatingActivity" />
+        <activity android:name=".coordinatorLayout.CoordinatorLayoutActivity"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

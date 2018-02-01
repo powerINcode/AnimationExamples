@@ -15,23 +15,12 @@
             android:layout_height="wrap_content"
             android:padding="16dp"
             android:orientation="vertical">
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Crossfire fade"
-                android:onClick="onCrossfireTap"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Transition manager"
-                android:onClick="onTransitionManagerTap"/>
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Scene change"
-                android:onClick="onSceneChangeTap"/>
+                android:text="Coordinator layout"
+                android:onClick="onCoordinatorLayoutTap"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -48,14 +37,14 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Instructive motion"
-                android:onClick="onInstructiveMotionTap"/>
+                android:text="Transition manager"
+                android:onClick="onTransitionManagerTap"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Interpolating"
-                android:onClick="onInterpolatingTap"/>
+                android:text="Instructive motion"
+                android:onClick="onInstructiveMotionTap"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -63,11 +52,6 @@
                 android:text="Coordinated motion"
                 android:onClick="onCoordinatedMotionTap"/>
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Transforming surface"
-                android:onClick="onTransformingSurfaceTap"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -80,6 +64,30 @@
                 android:layout_height="wrap_content"
                 android:text="Vector animation"
                 android:onClick="onVectorAnimatingTap"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Transforming surface"
+                android:onClick="onTransformingSurfaceTap"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scene change"
+                android:onClick="onSceneChangeTap"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Interpolating"
+                android:onClick="onInterpolatingTap"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crossfire fade"
+                android:onClick="onCrossfireTap"/>
         </LinearLayout>
     </ScrollView>
 

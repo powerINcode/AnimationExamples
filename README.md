@@ -1,0 +1,20 @@
+# Animations and Material Design Features
+
+In this project I try implement all main features of Material Design animations and some main features od It (CoordinatorLayout for example).
+
+# List of features:
+    - CoordinatorLayout with AppBarLayout and CollapsingToolbar
+    - Activity Transition
+    - Shared Element Transition
+    - Transition Manager
+    - Instructive Motion
+    - Instractive Motion
+    - Coordinated Motion
+    - Curve Motion
+    - Vector Animation
+    - Transforming Surface
+
+# Standard animations:
+    - Scene change
+    - Interpolating
+    - Crossfire fade
