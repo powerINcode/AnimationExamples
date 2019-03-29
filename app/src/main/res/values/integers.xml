@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="flash_view_slow_line_trim_start_duration">1800</integer>
+    <integer name="flash_view_slow_line_trim_end_duration">1510</integer>
+    <integer name="flash_view_slow_line_trim_end_offset">290</integer>
+
+    <integer name="flash_view_fast_line_trim_start_duration">1000</integer>
+    <integer name="flash_view_fast_line_trim_end_duration">900</integer>
+    <integer name="flash_view_fast_line_trim_end_offset">100</integer>
+</resources>

@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     android:background="#DED9DF"
     android:padding="16dp"
-    tools:context="com.example.powerincode.animatingtest.coordinatedMotion.CoordinatedRecyclerViewActivity">
+    tools:context="com.example.powerincode.screens.coordinatedMotion.CoordinatedRecyclerViewActivity">
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/root"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

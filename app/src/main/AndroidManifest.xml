@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.powerincode.animatingtest">
 
     <application
@@ -8,32 +9,69 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.example.powerincode.screens.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".crossfireFade.CrossFireAnimation" />
-        <activity android:name=".transitionManager.TransitionManagerActivity" />
-        <activity android:name=".sceneChange.SceneChangeActivity" />
-        <activity android:name=".activityTransition.ActivityTransitions" />
-        <activity android:name=".activityTransition.ActivityTransitions2" />
-        <activity android:name=".sharedElementTransition.SharedElementTransitions" />
-        <activity android:name=".sharedElementTransition.SharedElementTransitions2" />
-        <activity android:name=".instructiveMotion.InstructiveMotion" />
-        <activity android:name=".interpolating.InterpolatingActivity" />
-        <activity android:name=".coordinatedMotion.CoordinatedMotionActivity" />
-        <activity android:name=".coordinatedMotion.CoordinatedRecyclerViewActivity" />
-        <activity android:name=".coordinatedMotion.CoordinatedCurvedMotionActivity" />
-        <activity android:name=".coordinatedMotion.CoordinatedCurvedMotionActivity2" />
-        <activity android:name=".transformingSurface.TransformingSurfaceActivity" />
-        <activity android:name=".curveMotion.CurveMotionActivity" />
-        <activity android:name=".VectorAnimation.VectorAnimatingActivity" />
-        <activity android:name=".coordinatorLayout.CoordinatorLayoutActivity"
-            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name="com.example.powerincode.screens.crossfireFade.CrossFireAnimation"
+            android:parentActivityName="com.example.powerincode.screens.MainActivity" />
+        <activity
+            android:name="com.example.powerincode.screens.transitionManager.TransitionManagerActivity"
+            android:parentActivityName="com.example.powerincode.screens.MainActivity" />
+        <activity
+            android:name="com.example.powerincode.screens.sceneChange.SceneChangeActivity"
+            android:parentActivityName="com.example.powerincode.screens.MainActivity" />
+        <activity
+            android:name="com.example.powerincode.screens.activityTransition.ActivityTransitions"
+            android:parentActivityName="com.example.powerincode.screens.MainActivity" />
+        <activity
+            android:name="com.example.powerincode.screens.activityTransition.ActivityTransitions2"
+            android:parentActivityName="com.example.powerincode.screens.MainActivity" />
+        <activity
+            android:name="com.example.powerincode.screens.sharedElementTransition.SharedElementTransitions"
+            android:parentActivityName="com.example.powerincode.screens.MainActivity" />
+        <activity
+            android:name="com.example.powerincode.screens.sharedElementTransition.SharedElementTransitions2"
+            android:parentActivityName="com.example.powerincode.screens.MainActivity" />
+        <activity
+            android:name="com.example.powerincode.screens.instructiveMotion.InstructiveMotion"
+            android:parentActivityName="com.example.powerincode.screens.MainActivity" />
+        <activity
+            android:name="com.example.powerincode.screens.interpolating.InterpolatingActivity"
+            android:parentActivityName="com.example.powerincode.screens.MainActivity" />
+        <activity
+            android:name="com.example.powerincode.screens.coordinatedMotion.CoordinatedMotionActivity"
+            android:parentActivityName="com.example.powerincode.screens.MainActivity" />
+        <activity android:name="com.example.powerincode.screens.coordinatedMotion.CoordinatedRecyclerViewActivity" />
+        <activity android:name="com.example.powerincode.screens.coordinatedMotion.CoordinatedCurvedMotionActivity" />
+        <activity android:name="com.example.powerincode.screens.coordinatedMotion.CoordinatedCurvedMotionActivity2" />
+        <activity
+            android:name="com.example.powerincode.screens.transformingSurface.TransformingSurfaceActivity"
+            android:parentActivityName="com.example.powerincode.screens.MainActivity" />
+        <activity
+            android:name="com.example.powerincode.screens.curveMotion.CurveMotionActivity"
+            android:parentActivityName="com.example.powerincode.screens.MainActivity" />
+        <activity
+            android:name="com.example.powerincode.screens.vectorAnimation.VectorAnimatingActivity"
+            android:parentActivityName="com.example.powerincode.screens.MainActivity" />
+        <activity
+            android:name="com.example.powerincode.screens.coordinatorLayout.CoordinatorLayoutActivity"
+            android:parentActivityName="com.example.powerincode.screens.MainActivity" />
+        <activity
+            android:name="com.example.powerincode.screens.flinganimation.FlingAnimationActivity"
+            android:parentActivityName="com.example.powerincode.screens.MainActivity" />
+        <activity
+            android:name="com.example.powerincode.screens.springanimations.SpringActivity"
+            android:parentActivityName="com.example.powerincode.screens.MainActivity" />
+        <activity
+            android:name="com.example.powerincode.screens.animatedviews.AnimatedViewsActivity"
+            android:parentActivityName="com.example.powerincode.screens.MainActivity" />
     </application>
 
 </manifest>

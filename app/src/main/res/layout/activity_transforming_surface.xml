@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#DED9DF"
-    tools:context="com.example.powerincode.animatingtest.transformingSurface.TransformingSurfaceActivity">
+    tools:context="com.example.powerincode.screens.transformingSurface.TransformingSurfaceActivity">
 
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/v_square"
         android:layout_width="100dp"
         android:layout_height="100dp"

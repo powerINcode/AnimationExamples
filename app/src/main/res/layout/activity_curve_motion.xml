@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:clipChildren="false"
     android:id="@+id/root"
-    tools:context="com.example.powerincode.animatingtest.curveMotion.CurveMotionActivity">
+    tools:context="com.example.powerincode.screens.curveMotion.CurveMotionActivity">
 
 
     <FrameLayout

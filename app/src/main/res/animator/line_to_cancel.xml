@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<objectAnimator-->
+            <!--android:duration="250"-->
+            <!--android:interpolator="@android:interpolator/fast_out_slow_in"-->
+            <!--android:propertyName="trimPathStart"-->
+            <!--android:valueFrom="0.45"-->
+            <!--android:valueTo="0"/>-->
+
+    <objectAnimator
+            android:duration="250"
+            android:interpolator="@android:interpolator/fast_out_slow_in"
+            android:propertyName="scaleX"
+            android:valueFrom="1"
+            android:valueTo="1.5"
+            android:valueType="floatType"/>
+    M 10.75 18.75 C 10.75 18.75 20.75 10.75 20.75 5.75 C 20.75 4.872 20.519 4.01 20.08 3.25 C 19.641 2.49 19.01 1.859 18.25 1.420 C 17.490 0.981 16.628 0.750 15.750 0.750 C 12.750 0.750 10.750 4.75 10.750 4.75 C 10.750 4.75 8.750 0.750 5.75 0.750 C 4.424 0.750 3.152 1.277 2.214 2.214 C 1.277 3.152 0.750 4.424 0.750 5.750 C 0.750 10.75 10.75 18.75 10.75 18.75 C 10.75 18.750 10.750 18.750 10.750 18.750 C 10.75 18.75 10.75 18.75 10.75 18.75 C 10.75 18.75 10.75 18.75 10.75 18.75
+    M 11.26 18.28 C 11.26 18.28 19.00 12.08 19.00 8.21 C 19.00 7.534 18.827 6.86 18.48 6.27 C 18.148 5.68 17.65 5.200 17.07 4.861 C 16.482 4.521 15.814 4.342 15.134 4.342 C 12.811 4.342 11.262 7.44 11.262 7.44 C 11.262 7.44 9.713 4.342 7.39 4.342 C 6.710 4.342 6.042 4.521 5.454 4.861 C 4.865 5.200 4.376 5.689 4.036 6.278 C 3.696 6.867 3.518 7.534 3.518 8.214 C 3.518 12.086 11.262 18.282 11.262 18.282 18.282 18.282 18.282 18.282 18.282 18.282 Z
+    <objectAnimator
+            android:duration="250"
+            android:interpolator="@android:interpolator/fast_out_slow_in"
+            android:propertyName="scaleY"
+            android:valueFrom="1"
+            android:valueTo="1.5"
+            android:valueType="floatType"/>
+</set>

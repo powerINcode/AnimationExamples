@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.powerincode.animatingtest.activityTransition.ActivityTransitions2">
+    tools:context="com.example.powerincode.screens.activityTransition.ActivityTransitions2">
 
     <ImageView
         android:id="@+id/imageView4"
@@ -35,4 +35,4 @@
             android:layout_height="wrap_content"
             android:text="Lorem ipsum dolor sit amet, meis dicta per ei, eam ei dicant invidunt. Mei id vidit melius, fugit dictas te sed. An mazim salutatus dissentiunt his. Eu per eruditi complectitur, lobortis temporibus eu eam.  Ferri mentitum efficiendi ea vix. Et cum tempor essent abhorreant. At pro quas mazim noluisse. Natum apeirian eum et, nam adversarium instructior in, sed id luptatum periculis. Duo erant munere patrioque an. Et utamur iuvaret lucilius mel, ea pro graeci labitur disputando, nec no summo noluisse.  Cu usu dolorum propriae liberavisse, duo quis dicit alienum ne, reque decore nec te. Ne facilis dissentiunt ullamcorper duo. Ex mel ipsum iriure, nec te solum deserunt. In vim movet utinam, ne sed vidisse contentiones.  Vix et graece reprehendunt, ad est nullam gloriatur reprimique, ne vis dicam iriure. Ipsum consul ut eos, sea albucius invidunt atomorum in. Usu possit inermis ocurreret eu, te dico nullam eum, ius suas facer cu. Nam augue volutpat ad, pro te invenire mnesarchum. Nam cu atqui corpora, causae deleniti in duo, illum explicari gubergren in vix.  Ut mei postulant accommodare. Nec in dicat primis definiebas. Mea no detraxit honestatis. Dolor quaestio an has, civibus sadipscing vim ut, quo tollit alterum eu." />
     </FrameLayout>
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

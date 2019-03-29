@@ -19,4 +19,12 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="Switcher">
+        <item name="on_color">#4DE78A</item>
+        <item name="off_color">#FF4550</item>
+        <item name="indicator_color">#FFFFFF</item>
+        <item name="click_color">#4AFFFFFF</item>
+        <item name="android:stateListAnimator">@animator/switcher_state_anim</item>
+    </style>
+
 </resources>

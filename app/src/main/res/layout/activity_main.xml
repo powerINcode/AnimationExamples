@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.powerincode.animatingtest.MainActivity">
+    tools:context="com.example.powerincode.screens.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -15,6 +15,18 @@
             android:layout_height="wrap_content"
             android:padding="16dp"
             android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spring Animation"
+                android:onClick="onSpringAnimationTap"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Animation Views"
+                android:onClick="onAnimationViewsTap"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -52,12 +64,18 @@
                 android:text="Coordinated motion"
                 android:onClick="onCoordinatedMotionTap"/>
 
-
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Curve motion"
-                android:onClick="onCurveMotionTap"/>
+                android:text="Fling Animation"
+                android:onClick="onFlingAnimationTap"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onCurveMotionTap"
+                android:text="Curve motion" />
 
             <Button
                 android:layout_width="match_parent"
@@ -91,4 +109,4 @@
         </LinearLayout>
     </ScrollView>
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

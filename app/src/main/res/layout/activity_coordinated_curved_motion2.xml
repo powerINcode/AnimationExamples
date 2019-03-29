@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:clipChildren="false"
-    tools:context="com.example.powerincode.animatingtest.coordinatedMotion.CoordinatedCurvedMotionActivity2">
+    tools:context="com.example.powerincode.screens.coordinatedMotion.CoordinatedCurvedMotionActivity2">
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -36,24 +36,24 @@
         app:layout_constraintTop_toBottomOf="@+id/frameLayout"
         android:gravity="center">
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="100dp"
             android:layout_height="150dp"
             android:layout_margin="4dp"
             app:cardCornerRadius="4dp"
             android:visibility="invisible"/>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="100dp"
             android:layout_height="150dp"
             android:layout_margin="4dp"
             android:visibility="invisible"/>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="100dp"
             android:layout_height="150dp"
             android:layout_margin="4dp"
             android:visibility="invisible"/>
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
