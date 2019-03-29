@@ -1,6 +1,6 @@
 # Animations and Material Design Features
 
-In this project I try implement all main features of Material Design animations and some main features od It (CoordinatorLayout for example).
+In this project I try implement all main features of Material Design animations and some main features
 
 # List of features:
     - Spring animation
@@ -16,8 +16,3 @@ In this project I try implement all main features of Material Design animations 
     - Curve Motion
     - Vector Animation
     - Transforming Surface
-
-# Standard animations:
-    - Scene change
-    - Interpolating
-    - Crossfire fade
